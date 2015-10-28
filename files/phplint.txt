@@ -1,0 +1,5 @@
+# MANAGED BY PUPPET!
+if [ -d /usr/local/phplint ]; then
+  export PHPL_HOME=/usr/local/phplint
+  export PATH=${PHPL_HOME}:${PATH}
+fi
